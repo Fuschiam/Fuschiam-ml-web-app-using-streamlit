@@ -98,7 +98,7 @@ if st.button("Predict"):
 # Create columns
 col1, col2 = st.columns(2)
 
-# Display images in columns
+# # Display images in columns
 with col1:
     st.image("/workspaces/Fuschiam-ml-web-app-using-streamlit/data/raw/irwan-rbDE93-0hHs-unsplash.jpg", use_column_width=True)
 with col2:
